@@ -1,16 +1,135 @@
 .page {
     min-width: 1100px;
     max-width: 1600px;
-    font-family: Inter, Arial, sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-size: 16px;
     line-height: 20px;
     margin-right: auto;
     margin-left: auto;
 }
 
+
+
 .header {
+    padding: 30px 80px 40px;
+    background-color: #FFFFFF;
+    height: 100vh;
+    min-height: 720px;
+    max-height: 800px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/background_header.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav__logo {
+    width: 105px;
+    height: 39px;
+    position: relative;
+    left: -50px;
+}
+
+.nav__links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    right: 80px;
+    top: 30px;
+    gap: 20px;
+    padding: 0px;
+    margin: 0px;
 
 }
+
+.nav__link {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.header__title {
+    margin-top: 183px;
+    margin-left: 80px;
+    max-width: 729px;
+
+}
+
+
+.span-accent {
+    display: block;
+    color: blue;
+    font-style: italic;
+    font-family: 'Noto Serif';
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 72px;
+    color: #2F80ED;
+}
+
+.span-non-accent {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0.6px;
+}
+
+.header__description {
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 80px;
+    margin-top: 28px;
+    max-width: 683px;
+}
+
+.header__footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    margin-left: 80px;
+    margin-bottom: 40px;
+    margin-right: 80px;
+    box-sizing: border-box;
+}
+
+.header__paragraph {
+    margin: 0;
+}
+
+.header__image {
+   width: 646px;
+   height: 568px;
+   z-index: 1;
+   top: 124px;
+   right: 5px;
+   position: absolute;
+}
+
+.header__background_image {
+    position: center;
+    size: cover;
+}
+
+
+
 
 .content{
 
