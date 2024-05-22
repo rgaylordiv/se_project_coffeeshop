@@ -17,11 +17,6 @@
     <body>
         <div class="page">
             <header class="header">
-                <img 
-                    class="header__image"
-                    src="./images/inside_coffee_shop.png"
-                    alt="Inside the Coffee Shop"
-                />
                 <nav class="nav">
                     <img
                         src="./images/logo_coffeeshop_dark.svg"
@@ -49,6 +44,11 @@
                 <p class="header__description">
                     Welcome to our study zone! We've got the coffee to energize you and the cozy vibes to help you get creative.
                 </p>
+                <img 
+                    class="header__image"
+                    src="./images/inside_coffee_shop.png"
+                    alt="Inside the Coffee Shop"
+                />
                 <div class='header__footer'>
                     <div>
                     <p class="header__paragraph">
@@ -67,7 +67,36 @@
                 </div>
             </header>
             <main class="content">
-                <section class="recipes">
+                <section class="recipes" id="recipes">
+                    <h2 class="recipes__title">Recipes</h2>
+                    <p class="recipes__subtitle">Check out some recipes we've collected for your home-brewing convenience:</p>
+                    <div class="recipes__videos">
+                        <div>
+                            <iframe 
+                                class="recipes__iframe"
+                                width="480"
+                                height="273"
+                                frameborder="0"
+                                src='https://www.youtube.com/watch?v=j6VlT_jUVPc'
+                            ></iframe>
+                            <p class="recipes__video-caption">
+                                <span>Aeropress recipe</span>~5 min.
+                            </p>
+                        </div>
+                        <div>
+                            <iframe 
+                                class="recipes__iframe"
+                                width="480"
+                                height="273"
+                                frameborder="0"
+                                src='https://www.youtube.com/watch?v=st571DYYTR8'
+                            ></iframe>
+                             <p class="recipes__video-caption">
+                                <span>French press recipe</span>~15 min.
+                            </p>
+                        </div>
+                    </div>
+
 
                 </section>
                 <section class="reservation">
