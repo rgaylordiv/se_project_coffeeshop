@@ -288,7 +288,7 @@ input::placeholder {
     padding: 100px 0 100px;
     background-color: #fff;
     background-image: url(../images/background_menu.svg);
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
@@ -365,7 +365,7 @@ input::placeholder {
 
 .about {
     background-color: #0A2850;
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding: 0 0 173px 0;
