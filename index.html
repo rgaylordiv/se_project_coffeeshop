@@ -14,7 +14,7 @@
         <title>Roger's Coffee Shop</title>
     </head>
     <body>
-        <div class="page">
+        <div class="pages">
             <header class="header">
                 <nav class="nav">
                     <img
@@ -38,7 +38,7 @@
                     </ul>
                 </nav>
                 <h1 class="header__title">
-                    <span class='span-accent'>Specialty coffee</span><span class="span-non-accent"> in the Triple Peaks Library</span>
+                    <span class='header__span-accent'>Specialty coffee</span>in the Triple Peaks Library
                 </h1>
                 <p class="header__description">
                     Welcome to our study zone! We've got the coffee to energize you and the cozy vibes to help you get creative.
@@ -73,9 +73,7 @@
                         <div>
                             <iframe 
                                 class="recipes__iframe"
-                                width="480"
-                                height="273"
-                                src='https://www.youtube.com/watch?v=j6VlT_jUVPc'
+                                src='https://youtube.com/embed/j6VlT_jUVPc'
                             ></iframe>
                             <p class="recipes__video-caption">
                                 <span>Aeropress recipe</span>~5 min.
@@ -84,17 +82,13 @@
                         <div>
                             <iframe 
                                 class="recipes__iframe"
-                                width="480"
-                                height="273"
-                                src='https://www.youtube.com/watch?v=st571DYYTR8'
+                                src='https://www.youtube.com/embed/st571DYYTR8'
                             ></iframe>
                              <p class="recipes__video-caption">
                                 <span>French press recipe</span>~15 min.
                             </p>
                         </div>
                     </div>
-
-
                 </section>
                 <section class="reservation" id="reservation">
                     <h2 class="reservation__title">
@@ -103,7 +97,8 @@
                     <form class="reservation__form form">
                         <fieldset class="form__fieldset">
                             <label class="form__label">
-                                Name *<input type="text" placeholder="Name Surname" class="form__input" required>
+                                Name *
+                                <input type="text" placeholder="Name Surname" class="form__input" required>
                             </label>
                             <label class="form__label">
                                 Number of Guests *<input type="number" placeholder="1-8" class="form__input">
@@ -119,7 +114,7 @@
                             Book a table
                         </button>
                         <label class="form__label form__label_type_checkbox">
-                            <input type="checkbox" required>I agree with the terms of use
+                            <input type="checkbox" class='form__checkbox' required>I agree with the terms of use
                         </label>
                     </form>
                 </section>
@@ -136,31 +131,31 @@
                                 Filter
                             </h3>
                             <ul class="card__list">
-                                <li class="card__list__item">
+                                <li class="card__list-item">
                                     Regular (12 oz)
                                     <span class="card__list-divider">
                                     </span>
                                     $1
                                 </li>
-                                <li class="card__list__item">
+                                <li class="card__list-item">
                                     Large (116 oz)
                                     <span class="card__list-divider">
                                     </span>
                                     $1.25
                                 </li>
-                                <li class="card__list__item">
+                                <li class="card__list-item">
                                     XL (20 oz)
                                     <span class="card__list-divider">
                                     </span>
                                     $1.5
                                 </li>
-                                <li class="card__list__item">
+                                <li class="card__list-item">
                                     Party-size (24 oz, decaf)
                                     <span class="card__list-divider">
                                     </span>
                                     $1.75
                                 </li>
-                                <li class="card__list__item">
+                                <li class="card__list-item">
                                     Iced Coffee (16 oz)
                                     <span class="card__list-divider">
                                     </span>
@@ -173,25 +168,25 @@
                                 Espresso
                             </h3>
                             <ul class="card__list">
-                                <li class="card__list__item">
+                                <li class="card__list-item">
                                     Macchiato
                                     <span class="card__list-divider">
                                     </span>
                                     $2.25
                                 </li>
-                                <li class="card__list__item">
+                                <li class="card__list-item">
                                     Cortado
                                     <span class="card__list-divider">
                                     </span>
                                     $2.5
                                 </li>
-                                <li class="card__list__item">
+                                <li class="card__list-item">
                                     Mocha
                                     <span class="card__list-divider">
                                     </span>
                                     $3
                                 </li>
-                                <li class="card__list__item">
+                                <li class="card__list-item">
                                     Sunrise in the Bay Area (decaf)
                                     <span class="card__list-divider">
                                     </span>
@@ -203,37 +198,37 @@
                                 Baked Goods
                             </h3>
                             <ul class="card__list">
-                                <li class="card__list__item">
+                                <li class="card__list-item">
                                     Almond Croissant
                                     <span class="card__list-divider">
                                     </span>
                                     $2
                                 </li>
-                                <li class="card__list__item">
+                                <li class="card__list-item">
                                     Banana Bread
                                     <span class="card__list-divider">
                                     </span>
                                     $1.75
                                 </li>
-                                <li class="card__list__item">
+                                <li class="card__list-item">
                                     Key Lime Pie
                                     <span class="card__list-divider">
                                     </span>
                                     $3
                                 </li>
-                                <li class="card__list__item">
+                                <li class="card__list-item">
                                     Blue Velvet Cake
                                     <span class="card__list-divider">
                                     </span>
                                     $3.75
                                 </li>
-                                <li class="card__list__item">
+                                <li class="card__list-item">
                                     Web Cookie
                                     <span class="card__list-divider">
                                     </span>
                                     $2
                                 </li>
-                                <li class="card__list__item">
+                                <li class="card__list-item">
                                     Fresh Bug'uette
                                     <span class="card__list-divider">
                                     </span>
@@ -244,34 +239,42 @@
                     </ul>
                 </section>
                 <section class="about" id="about">
-                    <h3 class="about__title">About the coffee shop</h3>
+                    <h2 class="about__title">About the coffee shop</h2>
                     <div class="about__content">
                         <div class="about__circle"></div>
                         <div class="about__circle about__circle_animation_blurred"></div>
                         <p class="about__paragraph">
-                            <span class='about__paragraph-divider'>Our coffee shop is located in the Triple Peaks Library. It features 6 tables and free WiFi.</span>
-                            <span class='about__paragraph-divider'>Our main mission is keeping guests cozy and energized.</span>
-                            <span class='about__paragraph-divider'>Besides that, we try to reduce our enviromental impact - so we don't sell single-use cups. But you can buy one of our reusable cups!</span>
+                            Our coffee shop is located in the Triple Peaks Library. It features 6 tables and free WiFi.
+                        </p>
+                        <p class="about__paragraph">
+                            Our main mission is keeping guests cozy and energized. 
+                        </p>
+                        <p class="about__paragraph">
+                            Besides that, we try to reduce our enviromental impact - so we don't sell single-use cups. But you can buy one of our reusable cups!
                         </p>
                     </div>
                 </section>
             </main>
             <footer class="footer">
-                <div class="footer__content">
-                    <img class="footer__logo" src="./images/logo_coffeeshop_light.svg" alt="Logo Light"/>
-                    <ul class="footer__list">
+                <div class="footer__contents">
+                    <div class="footer__content">
+                        <img class="footer__logo" src="./images/logo_coffeeshop_light.svg" alt="Logo Light"/>
+                    </div>
+                    <div class="footer__content">
                         <h3 class="footer__social-heading">Social media</h3>
-                        <li class="footer__list-item">
-                            <img class="footer__social-icon" src="./images/facebook_white.svg" alt="Facebook"/>
-                            <a class='footer__social-link' href='#'>Facebook</a>
-                        </li>
-                        <li class="footer__list-item">
-                            <img class="footer__social-icon" src="./images/instagram_white.svg" alt="Instagram"/>
-                            <a class='footer__social-link' href='#'>Instagram</a>
-                        </li>
-                    </ul>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a class='footer__social-link' href='#'><img class="footer__social-icon" src="./images/facebook_white.svg" alt="Facebook"/>
+                                Facebook</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class='footer__social-link' href='#'><img class="footer__social-icon" src="./images/instagram_white.svg" alt="Instagram"/>
+                                Instagram</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <h4 class="footer__copyright">© 2024 Roger Gaylord</h4>
+                <p class="footer__copyright">© 2024 Roger Gaylord</p>
             </footer>
         </div>
     </body>

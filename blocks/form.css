@@ -1,0 +1,77 @@
+.form {
+    max-width: 385px;
+}
+
+.form__fieldset {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.form__input {
+    display: block;
+    width: 100%;
+    height: 60px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 8px;
+    margin-bottom: 32px;
+    border-radius: 4px; /*the radius it stated for the form__input is 4px on the brief if I am reading correctly, thank you for reviewing my code!*/
+}
+
+.form__button {
+    width: 100%;
+    height: 60px;
+    margin-top: 32px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    background-color: #2f80ed;
+    border-radius: 4px;
+    transition: background-color .3s linear;
+    border: none;
+}
+
+.form__button:hover {
+    background-color: rgba(47, 128, 237, .7);
+}
+
+.form__label {
+    margin-bottom: 32px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: block;
+}
+
+.form__label_type_checkbox {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.form__checkbox {
+   text-align: center;
+   margin-top: 32px;
+   border-radius: 2px;
+   width: 20px;
+   height: 20px;
+   margin: 0 12px 0 0;
+   transition: opacity .3s linear;
+}
+
+.form__checkbox:hover {
+    opacity: 60%
+}
+
+.form__input::placeholder {
+    color: #838383;
+}
