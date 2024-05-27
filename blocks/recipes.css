@@ -4,6 +4,7 @@
     background-image: url(../images/background_recipes.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     color: #ffffff;
 }
 
@@ -27,7 +28,7 @@
 .recipes__subtitle {
     margin: 24px 0 0 0;
     max-width: 438px;
-    font-family: "Noto Serif", Arial, sans-serif;
+    font-family: "Noto Serif", 'Times New Roman', serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;

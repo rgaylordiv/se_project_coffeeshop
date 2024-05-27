@@ -19,13 +19,13 @@
     line-height: 30px;
     margin-top: 8px;
     margin-bottom: 32px;
-    border-radius: 4px; /*the radius it stated for the form__input is 4px on the brief if I am reading correctly, thank you for reviewing my code!*/
+    border-radius: 4px;
+    border: 2px solid #838383;
 }
 
 .form__button {
     width: 100%;
     height: 60px;
-    margin-top: 32px;
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -36,6 +36,7 @@
     border-radius: 4px;
     transition: background-color .3s linear;
     border: none;
+    padding: 0;
 }
 
 .form__button:hover {
@@ -43,7 +44,6 @@
 }
 
 .form__label {
-    margin-bottom: 32px;
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 500;

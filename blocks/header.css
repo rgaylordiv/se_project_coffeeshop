@@ -30,7 +30,7 @@
     display: block;
     color: blue;
     font-style: italic;
-    font-family: 'Noto Serif', Arial, sans-serif;
+    font-family: 'Noto Serif', 'Times New Roman', serif;
     font-weight: normal;
     font-size: 60px;
     line-height: 72px;
@@ -38,7 +38,7 @@
 }
 
 .header__description {
-    font-family: 'Noto Serif', Arial, sans-serif;
+    font-family: 'Noto Serif', 'Times New Roman', serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -64,6 +64,7 @@
 
 .header__paragraph {
     margin-top: auto;
+    margin-bottom: 0;
     z-index: 1;
     font-family: "Inter", Arial, sans-serif;
     font-style: normal;
